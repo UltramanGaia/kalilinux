@@ -3,6 +3,6 @@ RUN apt-get update && apt-get install -y \
   metasploit-framework \
   vim \
   procps \
-  iproute \
+  net-tools \
   && rm -rf /var/lib/apt/lists/*
 
